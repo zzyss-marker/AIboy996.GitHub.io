@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://yangzhang.site/playground/</loc>
-         <lastmod>2023-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://yangzhang.site/About/</loc>
          <lastmod>2023-05-05</lastmod>
          <changefreq>daily</changefreq>
@@ -132,6 +127,11 @@
     </url>
     <url>
          <loc>https://yangzhang.site/Blog/2023/%E8%80%83%E7%A0%94/</loc>
+         <lastmod>2023-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yangzhang.site/Playground/</loc>
          <lastmod>2023-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
