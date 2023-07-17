@@ -151,6 +151,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://yangzhang.site/Blog/2023/%E4%B8%AD%E7%AD%89%E6%95%B0%E5%AD%A6%E5%A4%8D%E5%81%A5/</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://yangzhang.site/Blog/2023/%E5%8D%96%E8%BA%AB/</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
@@ -176,12 +181,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://yangzhang.site/Project/PyScript/</loc>
+         <loc>https://yangzhang.site/Project/AirPrint-with-Python/</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yangzhang.site/Project/Course-Selection-System/</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://yangzhang.site/Project/high_school_math/</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yangzhang.site/Project/plt-gallery/</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -192,11 +207,6 @@
     </url>
     <url>
          <loc>https://yangzhang.site/Project/qrq/</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://yangzhang.site/Project/%E9%80%89%E8%AF%BE%E7%B3%BB%E7%BB%9F/</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
