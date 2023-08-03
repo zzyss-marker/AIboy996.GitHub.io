@@ -13,9 +13,9 @@
   Hack: check whether the content contains a h1 headline. If it
   doesn't, the page title (or respectively site name) is used
   as the main headline.
---> <!-- Markdown content --> <div><h1 id=sas>SAS的基本操作<a class=headerlink href=#sas title="Permanent link">¶</a></h1> <h2 id=sas_1>SAS数据集概论<a class=headerlink href=#sas_1 title="Permanent link">¶</a></h2> <h3 id=_1>逻辑库<a class=headerlink href=#_1 title="Permanent link">¶</a></h3> <h4 id=work>临时逻辑库WORK和永久数据集<a class=headerlink href=#work title="Permanent link">¶</a></h4> <p>libname语句——链接逻辑库，可以读取或是保存数据集</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>libname</span> &lt;name&gt; <span class=s>'&lt;path&gt;'</span>;
-</code></pre></div> <p>同时存到多个位置</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>libname</span> &lt;name&gt; (<span class=s>'&lt;path&gt;'</span> <span class=s>'&lt;path&gt;'</span>);
-</code></pre></div> <p>物理文件夹必须事先已经存在，不会自动创建</p> <h4 id=_2>逻辑库命名要求<a class=headerlink href=#_2 title="Permanent link">¶</a></h4> <ul> <li>最多8字符</li> <li>以字母or下划线开始，只能包含数字、字母、下划线</li> <li>引用的时候不区分大小写，调用格式为<strong>library.dataset</strong></li> </ul> <h3 id=sas_2>SAS的基础语法<a class=headerlink href=#sas_2 title="Permanent link">¶</a></h3> <p>SAS程序分为两类：数据步data step和过程步proc step</p> <ol> <li> <p>data步可以输入输出数据、清理与整理数据</p> </li> <li> <p>proc步可以分析、处理数据，展示数据和信息</p> </li> <li> <p>每个step可以有多个语句通常以关键词开头必须以；结束，语句中用空格作为分隔符</p> </li> </ol> <h3 id=sas_3>SAS数据集结构<a class=headerlink href=#sas_3 title="Permanent link">¶</a></h3> <p>二维矩阵</p> <p>第一行是变量名</p> <p>每一行是一个观测</p> <p>每一列是一个变量</p> <h2 id=_3>数据的输入<a class=headerlink href=#_3 title="Permanent link">¶</a></h2> <h3 id=_4>理解数据集<a class=headerlink href=#_4 title="Permanent link">¶</a></h3> <h4 id=_5>数据集的命名规则：<a class=headerlink href=#_5 title="Permanent link">¶</a></h4> <ul> <li> <p>最长32字符</p> </li> <li> <p>字母或下划线开始，只包含数字、字母、下划线</p> </li> <li> <p>储存时保留大小写但是引用时不区分大小写</p> </li> </ul> <p>数据集的两部分：数据和描述</p> <h4 id=print>print过程——数据集数据部分<a class=headerlink href=#print title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc print </span>data=&lt;dataname&gt; <span class=k>label</span> noobs ;显示标签，不显示观测序号
+--> <!-- Markdown content --> <div><h1 id=sas>SAS的基本操作<a class=headerlink href=#sas title="Permanent link">¶</a></h1> <h2 id=sas_1>SAS数据集概论<a class=headerlink href=#sas_1 title="Permanent link">¶</a></h2> <h3 id=_1>逻辑库<a class=headerlink href=#_1 title="Permanent link">¶</a></h3> <h4 id=work>临时逻辑库WORK和永久数据集<a class=headerlink href=#work title="Permanent link">¶</a></h4> <p>libname语句——链接逻辑库，可以读取或是保存数据集</p> <div class=highlight><pre><span></span><code><span class=k>libname</span> &lt;name&gt; <span class=s>'&lt;path&gt;'</span>;
+</code></pre></div> <p>同时存到多个位置</p> <div class=highlight><pre><span></span><code><span class=k>libname</span> &lt;name&gt; (<span class=s>'&lt;path&gt;'</span> <span class=s>'&lt;path&gt;'</span>);
+</code></pre></div> <p>物理文件夹必须事先已经存在，不会自动创建</p> <h4 id=_2>逻辑库命名要求<a class=headerlink href=#_2 title="Permanent link">¶</a></h4> <ul> <li>最多8字符</li> <li>以字母or下划线开始，只能包含数字、字母、下划线</li> <li>引用的时候不区分大小写，调用格式为<strong>library.dataset</strong></li> </ul> <h3 id=sas_2>SAS的基础语法<a class=headerlink href=#sas_2 title="Permanent link">¶</a></h3> <p>SAS程序分为两类：数据步data step和过程步proc step</p> <ol> <li> <p>data步可以输入输出数据、清理与整理数据</p> </li> <li> <p>proc步可以分析、处理数据，展示数据和信息</p> </li> <li> <p>每个step可以有多个语句通常以关键词开头必须以；结束，语句中用空格作为分隔符</p> </li> </ol> <h3 id=sas_3>SAS数据集结构<a class=headerlink href=#sas_3 title="Permanent link">¶</a></h3> <p>二维矩阵</p> <p>第一行是变量名</p> <p>每一行是一个观测</p> <p>每一列是一个变量</p> <h2 id=_3>数据的输入<a class=headerlink href=#_3 title="Permanent link">¶</a></h2> <h3 id=_4>理解数据集<a class=headerlink href=#_4 title="Permanent link">¶</a></h3> <h4 id=_5>数据集的命名规则：<a class=headerlink href=#_5 title="Permanent link">¶</a></h4> <ul> <li> <p>最长32字符</p> </li> <li> <p>字母或下划线开始，只包含数字、字母、下划线</p> </li> <li> <p>储存时保留大小写但是引用时不区分大小写</p> </li> </ul> <p>数据集的两部分：数据和描述</p> <h4 id=print>print过程——数据集数据部分<a class=headerlink href=#print title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc print </span>data=&lt;dataname&gt; <span class=k>label</span> noobs ;显示标签，不显示观测序号
     <span class=k>title</span> <span class=s>'title'</span>;
     <span class=k>footnote</span> <span class=s>'footnote'</span>;注意这是全局设置
     <span class=k>by</span> var1;必须先sort过程之后再使用by语句
@@ -25,9 +25,9 @@
     <span class=k>where</span> var1=<span class=m>3</span>;条件筛选
     <span class=k>format</span> var1 date9.<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=contents>contents过程——数据集描述部分<a class=headerlink href=#contents title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc contents </span>data=&lt;dataname&gt;<span class=kr>;</span>
+</code></pre></div> <h4 id=contents>contents过程——数据集描述部分<a class=headerlink href=#contents title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc contents </span>data=&lt;dataname&gt;<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=_6>变量的属性<a class=headerlink href=#_6 title="Permanent link">¶</a></h4> <ul> <li>类型：字符型or数值型，缺失值不同，字符型缺失值为空格，数值型缺失值为( . )</li> <li>长度</li> <li>标签——label语句<ul> <li>每个变量一个标签</li> <li>长度不超过256</li> <li>保存和引用的时候区分大小写</li> <li>可以包含中文</li> </ul> </li> </ul> <h3 id=_7>输入数据<a class=headerlink href=#_7 title="Permanent link">¶</a></h3> <p>两种数据文件：文本or二进制</p> <p>三种数据输入方法：data步、import过程、import wizard（菜单操作）</p> <h4 id=data>data步——手动输入<a class=headerlink href=#data title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>&lt;<span class=k>libname</span>&gt;.&lt;dataname&gt;;
+</code></pre></div> <h4 id=_6>变量的属性<a class=headerlink href=#_6 title="Permanent link">¶</a></h4> <ul> <li>类型：字符型or数值型，缺失值不同，字符型缺失值为空格，数值型缺失值为( . )</li> <li>长度</li> <li>标签——label语句<ul> <li>每个变量一个标签</li> <li>长度不超过256</li> <li>保存和引用的时候区分大小写</li> <li>可以包含中文</li> </ul> </li> </ul> <h3 id=_7>输入数据<a class=headerlink href=#_7 title="Permanent link">¶</a></h3> <p>两种数据文件：文本or二进制</p> <p>三种数据输入方法：data步、import过程、import wizard（菜单操作）</p> <h4 id=data>data步——手动输入<a class=headerlink href=#data title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>&lt;<span class=k>libname</span>&gt;.&lt;dataname&gt;;
     <span class=k>infile</span> <span class=k>cards</span>;（可省略）
     <span class=k>input</span> var1 var2$;
     <span class=k>informat</span> var1 format1;
@@ -38,13 +38,13 @@
 <span class=x>    asdad sada</span>
 <span class=x>    ;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=data_1>data步——文件读入<a class=headerlink href=#data_1 title="Permanent link">¶</a></h4> <p></p><div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>&lt;dataname&gt;;
+</code></pre></div> <h4 id=data_1>data步——文件读入<a class=headerlink href=#data_1 title="Permanent link">¶</a></h4> <p></p><div class=highlight><pre><span></span><code><span class=kr>data </span>&lt;dataname&gt;;
     <span class=k>infile</span> <span class=s>'path'</span> &lt;选项&gt;  dlm=<span class=s>','</span>  dsd  firstobs=<span class=m>1</span>  obs=<span class=m>10</span>  pad（行尾补充空格）;
     <span class=k>length</span> var1 n;（length必须放在input之前）
     <span class=k>input</span> var1 var2;
     <span class=k>format</span> var1 format1<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> - dlm='09'x 制表符 - dsd选项 - 分隔符从默认的空格改为逗号 - 每个分隔符都作为分隔符处理，连续的分隔符产生缺省值 - 文件中包含的引号读入时去掉引号 <h4 id=data_2>data步编译过程<a class=headerlink href=#data_2 title="Permanent link">¶</a></h4> <p>1、创建缓冲区、描述信息、PDV（包括变量、_N_以及_ERROR_）</p> <p>2、input读入一行数据，记录到缓冲区</p> <p>3、根据input指令，把缓冲区内值赋给PDV中的变量</p> <p>4、执行下面的其他语句</p> <p>5、此次迭代结束，进入下一次迭代，清空缓冲区，_N_+=1否则_ERROR_+=1</p> <p>6、重复直到没有其他数据</p> <h4 id=data_3>data步输入模式<a class=headerlink href=#data_3 title="Permanent link">¶</a></h4> <p><strong>按列输入</strong></p> <p>指定每个变量的列跨度，可以随意安排次序，可以重复也可以跳开</p> <p><strong>格式输入</strong></p> <p>使用@符号控制列指针，给出开始的列数但是不直接给出结束的列数，而是通过读入格式来读取指定列数</p> <p>也可以使用+n来使得指针向前移动n列</p> <p>常用格式</p> <ul> <li><code>$w.</code> 读入标准的字符数据</li> <li><code>w.d</code> 读入标准的数值数据</li> <li><code>mmddyyw.</code> 读入时间</li> </ul> <p><strong>列举输入</strong></p> <ul> <li>同一个变量在不同行可以从不同列开始</li> <li>分隔符固定，默认是空格</li> <li>字符变量长度缺省值为8——length语句</li> </ul> <p><strong>混合输入</strong></p> <p>几个输入方式可以混合使用</p> <p>修饰符</p> <ul> <li>冒号<code>：</code>——跳过分隔符开始读直到遇到分隔符，或者达到格式中的长度或者数据行结束</li> <li>与号<code>&amp;</code>——允许数据值中字符之间包含一个空格，直到遇到两个空格或者数据长度到达或者输入行结束</li> <li>非号<code>~</code>——保持数据中的单引号、双引号</li> <li>行保持符号<code>@@</code>——处理行混乱的数据，PDV长度！！</li> </ul> <h4 id=import>import过程<a class=headerlink href=#import title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc import </span><span class=k>out</span>=temp
+</code></pre></div> - dlm='09'x 制表符 - dsd选项 - 分隔符从默认的空格改为逗号 - 每个分隔符都作为分隔符处理，连续的分隔符产生缺省值 - 文件中包含的引号读入时去掉引号 <h4 id=data_2>data步编译过程<a class=headerlink href=#data_2 title="Permanent link">¶</a></h4> <p>1、创建缓冲区、描述信息、PDV（包括变量、_N_以及_ERROR_）</p> <p>2、input读入一行数据，记录到缓冲区</p> <p>3、根据input指令，把缓冲区内值赋给PDV中的变量</p> <p>4、执行下面的其他语句</p> <p>5、此次迭代结束，进入下一次迭代，清空缓冲区，_N_+=1否则_ERROR_+=1</p> <p>6、重复直到没有其他数据</p> <h4 id=data_3>data步输入模式<a class=headerlink href=#data_3 title="Permanent link">¶</a></h4> <p><strong>按列输入</strong></p> <p>指定每个变量的列跨度，可以随意安排次序，可以重复也可以跳开</p> <p><strong>格式输入</strong></p> <p>使用@符号控制列指针，给出开始的列数但是不直接给出结束的列数，而是通过读入格式来读取指定列数</p> <p>也可以使用+n来使得指针向前移动n列</p> <p>常用格式</p> <ul> <li><code>$w.</code> 读入标准的字符数据</li> <li><code>w.d</code> 读入标准的数值数据</li> <li><code>mmddyyw.</code> 读入时间</li> </ul> <p><strong>列举输入</strong></p> <ul> <li>同一个变量在不同行可以从不同列开始</li> <li>分隔符固定，默认是空格</li> <li>字符变量长度缺省值为8——length语句</li> </ul> <p><strong>混合输入</strong></p> <p>几个输入方式可以混合使用</p> <p>修饰符</p> <ul> <li>冒号<code>：</code>——跳过分隔符开始读直到遇到分隔符，或者达到格式中的长度或者数据行结束</li> <li>与号<code>&amp;</code>——允许数据值中字符之间包含一个空格，直到遇到两个空格或者数据长度到达或者输入行结束</li> <li>非号<code>~</code>——保持数据中的单引号、双引号</li> <li>行保持符号<code>@@</code>——处理行混乱的数据，PDV长度！！</li> </ul> <h4 id=import>import过程<a class=headerlink href=#import title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc import </span><span class=k>out</span>=temp
     datafile=<span class=s>'path'</span>  这里不可以用filename
     dbms = xls <span class=k>replace</span>；
     #注意分号位置
@@ -54,7 +54,7 @@
     getnames=YES;是否读取第一行作为列名
     注意上面都是选项，分号得注意
 <span class=kr>run;</span>
-</code></pre></div> <h2 id=_8>数据的输出<a class=headerlink href=#_8 title="Permanent link">¶</a></h2> <h3 id=_9>导出<a class=headerlink href=#_9 title="Permanent link">¶</a></h3> <h4 id=export>export过程<a class=headerlink href=#export title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc export;</span>
+</code></pre></div> <h2 id=_8>数据的输出<a class=headerlink href=#_8 title="Permanent link">¶</a></h2> <h3 id=_9>导出<a class=headerlink href=#_9 title="Permanent link">¶</a></h3> <h4 id=export>export过程<a class=headerlink href=#export title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc export;</span>
     data=数据集
     outfile=<span class=s>'path'</span>
     dbms=&lt;database_management_system&gt;;
@@ -62,42 +62,42 @@
     <span class=k>delimiter</span> = <span class=s>','</span>;分隔符
     putnames=NO;是否将变量名作为第一行，默认为yes
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_10>打印<a class=headerlink href=#_10 title="Permanent link">¶</a></h3> <h4 id=sort>sort过程——排序<a class=headerlink href=#sort title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc sort </span>data=dataname <span class=k>out</span>=asd;
+</code></pre></div> <h3 id=_10>打印<a class=headerlink href=#_10 title="Permanent link">¶</a></h3> <h4 id=sort>sort过程——排序<a class=headerlink href=#sort title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc sort </span>data=dataname <span class=k>out</span>=asd;
     <span class=k>where</span> family=<span class=s>'asd'</span>;
     <span class=k>by</span> var1 descending var2<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=title>title语句——标题<a class=headerlink href=#title title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>title</span> <span class=s>'title'</span>;
+</code></pre></div> <h4 id=title>title语句——标题<a class=headerlink href=#title title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=k>title</span> <span class=s>'title'</span>;
 titlen <span class=s>'titlen'</span>;第n级标题
 <span class=k>title</span>;取消标题
 titlen;取消第n级其以上的标题
-</code></pre></div> <h4 id=footnote>footnote语句——脚注<a class=headerlink href=#footnote title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>footnote</span> <span class=s>'footnote'</span>;
+</code></pre></div> <h4 id=footnote>footnote语句——脚注<a class=headerlink href=#footnote title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=k>footnote</span> <span class=s>'footnote'</span>;
 footnoten <span class=s>'footnoten'</span>;第n级脚注
 <span class=k>footnote</span>;取消脚注
 footnoten;取消第n级其以上的脚注
-</code></pre></div> <h4 id=filename>filename语句<a class=headerlink href=#filename title="Permanent link">¶</a></h4> <p>固定路径，方便重复调用</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>filename</span> &lt;myfile&gt; <span class=s>'path'</span>;
-</code></pre></div> <ul> <li>用法</li> </ul> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>filename</span> myfile <span class=s>'C:\SataSoftData\'</span><span class=kr>;</span>
+</code></pre></div> <h4 id=filename>filename语句<a class=headerlink href=#filename title="Permanent link">¶</a></h4> <p>固定路径，方便重复调用</p> <div class=highlight><pre><span></span><code><span class=k>filename</span> &lt;myfile&gt; <span class=s>'path'</span>;
+</code></pre></div> <ul> <li>用法</li> </ul> <div class=highlight><pre><span></span><code><span class=k>filename</span> myfile <span class=s>'C:\SataSoftData\'</span><span class=kr>;</span>
 <span class=kr>data </span>bank;
     <span class=k>infile</span> myfile(bank1<span class=m>.</span>txt);
     <span class=k>input</span> ...<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=format>format过程——自定义格式<a class=headerlink href=#format title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc format;</span>
+</code></pre></div> <h4 id=format>format过程——自定义格式<a class=headerlink href=#format title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc format;</span>
     value var1 <span class=m>1</span>=<span class=s>'male'</span>
                <span class=m>2</span>=<span class=s>'fmale'</span>;
     value var2 ...<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_11>制表<a class=headerlink href=#_11 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc freq </span>data=dataname;
+</code></pre></div> <h3 id=_11>制表<a class=headerlink href=#_11 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc freq </span>data=dataname;
     tables var1*(var2<span class=m>-4</span>);
     var5;
     var6--var7;
     tables (var8<span class=m>-9</span>)*(var10<span class=m>-11</span>)/nocol norow nopercent <span class=k>out</span>=data nocum nofreq <span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h2 id=_12>运算操作<a class=headerlink href=#_12 title="Permanent link">¶</a></h2> <h3 id=_13>变量操作（列）<a class=headerlink href=#_13 title="Permanent link">¶</a></h3> <h4 id=_14>添加新变量——直接运算<a class=headerlink href=#_14 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <h2 id=_12>运算操作<a class=headerlink href=#_12 title="Permanent link">¶</a></h2> <h3 id=_13>变量操作（列）<a class=headerlink href=#_13 title="Permanent link">¶</a></h3> <h4 id=_14>添加新变量——直接运算<a class=headerlink href=#_14 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>infile</span> <span class=s>'path'</span>;
     <span class=k>input</span> var1;
     var2 = lot(var1);在原有数据的基础上变换
     var3 = <span class=s>'sad'</span>;新的变量
 <span class=kr>run;</span>
-</code></pre></div> <p>注意含有缺失值的加减乘除计算结果为缺失值</p> <p><strong>使用sum函数可以计算缺失值之外的和</strong></p> <h4 id=keepdroprenameset>删除变量、修改变量——keep，drop，rename，set<a class=headerlink href=#keepdroprenameset title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <p>注意含有缺失值的加减乘除计算结果为缺失值</p> <p><strong>使用sum函数可以计算缺失值之外的和</strong></p> <h4 id=keepdroprenameset>删除变量、修改变量——keep，drop，rename，set<a class=headerlink href=#keepdroprenameset title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname;
     <span class=k>keep</span> var1;保留
     <span class=k>drop</span> var2;删除
@@ -106,24 +106,24 @@ footnoten;取消第n级其以上的脚注
         <span class=k>else</span> <span class=k>if</span> score &lt;<span class=m>60</span> <span class=k>then</span> grade=<span class=s>'C'</span>;
                 <span class=k>else</span> grade=<span class=s>'B'</span><span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname(<span class=k>drop</span>=var2 <span class=k>rename</span>=(total=all))<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname(<span class=k>drop</span>=var2 <span class=k>rename</span>=(total=all));这种写法和语句一样，相当于写在最后的语句，最后执行
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname(<span class=k>drop</span>=var2 <span class=k>rename</span>=(total=all));这种写法和语句一样，相当于写在最后的语句，最后执行
     <span class=k>set</span> dataname<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=_15>数据集选项和语句的区别<a class=headerlink href=#_15 title="Permanent link">¶</a></h4> <p>set语句的数据集选项，影响PDV</p> <p>而keep等语句只影响最终输出的数据集，不影响PDV</p> <p>也就是，第二种如果想要total += 1需要使用all += 1,而第一种则是 total += 1（在rename语句之前） </p> <h3 id=sas_4>SAS函数和控制流<a class=headerlink href=#sas_4 title="Permanent link">¶</a></h3> <h4 id=data-_null_>data _NULL_哑数据集<a class=headerlink href=#data-_null_ title="Permanent link">¶</a></h4> <p>可以不创建数据集且执行操作</p> <h4 id=_16>函数和运算符<a class=headerlink href=#_16 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>^= ~= NE    不等于
+</code></pre></div> <h4 id=_15>数据集选项和语句的区别<a class=headerlink href=#_15 title="Permanent link">¶</a></h4> <p>set语句的数据集选项，影响PDV</p> <p>而keep等语句只影响最终输出的数据集，不影响PDV</p> <p>也就是，第二种如果想要total += 1需要使用all += 1,而第一种则是 total += 1（在rename语句之前） </p> <h3 id=sas_4>SAS函数和控制流<a class=headerlink href=#sas_4 title="Permanent link">¶</a></h3> <h4 id=data-_null_>data _NULL_哑数据集<a class=headerlink href=#data-_null_ title="Permanent link">¶</a></h4> <p>可以不创建数据集且执行操作</p> <h4 id=_16>函数和运算符<a class=headerlink href=#_16 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>^= ~= NE    不等于
 GE          不小于
 LT          不大于
 <span class=k>IN</span>          存在于
 &amp; <span class=k>AND</span>
 | ! <span class=k>OR</span>
 ^ ~ <span class=k>NOT</span>
-</code></pre></div> <h4 id=where>where语句<a class=headerlink href=#where title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>where</span> age is <span class=k>missing</span>;           匹配缺失值
+</code></pre></div> <h4 id=where>where语句<a class=headerlink href=#where title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=k>where</span> age is <span class=k>missing</span>;           匹配缺失值
 <span class=k>where</span> age between <span class=m>20</span> <span class=k>and</span> <span class=m>40</span>;    范围
 <span class=k>where</span> name contains Mac;        包含
 <span class=k>where</span> name <span class=k>like</span> R_n%;           下划线匹配单个字符，百分号匹配任何字符————Ron,Run，Running
-</code></pre></div> <h4 id=_17>数值函数<a class=headerlink href=#_17 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>int
+</code></pre></div> <h4 id=_17>数值函数<a class=headerlink href=#_17 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>int
 log log10
 min max
 mean
@@ -132,22 +132,22 @@ n nmiss
 round
 sin cos tan
 exp
-</code></pre></div> <h4 id=_18>字符函数<a class=headerlink href=#_18 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>lowcase upcase  改变大小写
+</code></pre></div> <h4 id=_18>字符函数<a class=headerlink href=#_18 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>lowcase upcase  改变大小写
 <span class=nb>substr(</span>s,p,n)   字符串s从p开始抽取n个字符
 <span class=nb>repeat(</span>s,n)     字符串s重复n次
 <span class=k>index</span>(s,s1)     查找s1在s中的位置
 <span class=k>length</span>(s)       返回s的长度
 <span class=nb>tranwrd(</span>s,s1,s2)返回把s中所有s1换成s2
 cat(s1,s2,s3)   合并字符
-</code></pre></div> <h4 id=_19>日期函数<a class=headerlink href=#_19 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=nb>year(</span>date)      年
+</code></pre></div> <h4 id=_19>日期函数<a class=headerlink href=#_19 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=nb>year(</span>date)      年
 <span class=nb>month(</span>date)     月
 <span class=nb>day(</span>date)       日
 <span class=nb>weekday(</span>date)   得到周几
 <span class=nb>mdy(</span>m,d,yr)     生成日期值
 <span class=nb>today(</span>)         当前日期
-</code></pre></div> <h4 id=_20>类型转换函数<a class=headerlink href=#_20 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>put</span>(源，格式)   #把数值型或者字符型转化为字符型
+</code></pre></div> <h4 id=_20>类型转换函数<a class=headerlink href=#_20 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=k>put</span>(源，格式)   #把数值型或者字符型转化为字符型
 <span class=k>input</span>(源，格式) #把字符型转换为数值型(或字符型）
-</code></pre></div> <p>注意input、put函数和input、put语句的区别</p> <h4 id=sum>sum语句<a class=headerlink href=#sum title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>revenue; 
+</code></pre></div> <p>注意input、put函数和input、put语句的区别</p> <h4 id=sum>sum语句<a class=headerlink href=#sum title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>revenue; 
   <span class=k>retain</span> Total <span class=m>0</span>; 
   <span class=k>input</span> Day : $<span class=m>3</span>. 
   Revenue : dollar6.; 
@@ -161,9 +161,9 @@ cat(s1,s2,s3)   合并字符
 <span class=x>Fri $3,000 </span>
 <span class=x>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <p>简写为Total+Revenue，也就是sum语句</p> <p>写法是<strong>variable+increment</strong></p> <p>它包含了初始化且retain的功能</p> <p>并且为缺失值的增量会被自动忽略!!</p> <p><strong>上面的写法,从wed开始之后都是缺失值!!</strong></p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>retain</span> Total <span class=m>0</span>;
+</code></pre></div> <p>简写为Total+Revenue，也就是sum语句</p> <p>写法是<strong>variable+increment</strong></p> <p>它包含了初始化且retain的功能</p> <p>并且为缺失值的增量会被自动忽略!!</p> <p><strong>上面的写法,从wed开始之后都是缺失值!!</strong></p> <div class=highlight><pre><span></span><code><span class=k>retain</span> Total <span class=m>0</span>;
 功能是 初始化为0,且在迭代过程中保持清除(全局变量差不多的意思)
-</code></pre></div> <p>sum语句简写如下:</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>revenue; 
+</code></pre></div> <p>sum语句简写如下:</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>revenue; 
   <span class=k>input</span> Day : $<span class=m>3</span>. 
   Revenue : dollar6.; 
   Total+Revenue; 
@@ -176,7 +176,7 @@ cat(s1,s2,s3)   合并字符
 <span class=x>Fri $3,000 </span>
 <span class=x>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <h5 id=sum_1>sum语句计数器<a class=headerlink href=#sum_1 title="Permanent link">¶</a></h5> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>test; 
+</code></pre></div> <h5 id=sum_1>sum语句计数器<a class=headerlink href=#sum_1 title="Permanent link">¶</a></h5> <div class=highlight><pre><span></span><code><span class=kr>data </span>test; 
   <span class=k>input</span> <span class=k>x</span>; 
   <span class=k>if</span> <span class=k>missing</span>(<span class=k>x</span>) <span class=k>then</span> MissCounter + <span class=m>1</span>; 
 <span class=k>  datalines; </span>
@@ -186,7 +186,7 @@ cat(s1,s2,s3)   合并字符
 <span class=x>. </span>
 <span class=x>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <h4 id=do>do循环<a class=headerlink href=#do title="Permanent link">¶</a></h4> <p>不用循环写法</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>compound; 
+</code></pre></div> <h4 id=do>do循环<a class=headerlink href=#do title="Permanent link">¶</a></h4> <p>不用循环写法</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>compound; 
   Interest=.<span class=m>0375</span>; 
   Total=<span class=m>100</span>; 
   Year + <span class=m>1</span>; #sum语句
@@ -200,7 +200,7 @@ cat(s1,s2,s3)   合并字符
   <span class=k>output</span>; 
   <span class=k>format</span> Total dollar10<span class=m>.2</span><span class=kr>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <p>循环写法</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>compound; 
+</code></pre></div> <p>循环写法</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>compound; 
   Interest=.<span class=m>0375</span>; 
   Total=<span class=m>100</span>; 
   <span class=k>do</span> Year=<span class=m>1</span> to <span class=m>3</span> <span class=k>by</span> <span class=m>1</span>; 
@@ -209,9 +209,9 @@ cat(s1,s2,s3)   合并字符
   <span class=k>end</span>; 
   <span class=k>format</span> Total dollar10<span class=m>.2</span><span class=kr>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <p>do循环其他写法</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>do</span> <span class=k>x</span>=<span class=m>1</span>,<span class=m>2</span>,<span class=m>5</span>,<span class=m>10</span>;
+</code></pre></div> <p>do循环其他写法</p> <div class=highlight><pre><span></span><code><span class=k>do</span> <span class=k>x</span>=<span class=m>1</span>,<span class=m>2</span>,<span class=m>5</span>,<span class=m>10</span>;
 <span class=k>do</span> n=<span class=m>1</span> to <span class=m>9</span> <span class=k>by</span> <span class=m>2</span>, <span class=m>100</span> to <span class=m>200</span> <span class=k>by</span> <span class=m>50</span>;
-</code></pre></div> <h5 id=do-until>do until<a class=headerlink href=#do-until title="Permanent link">¶</a></h5> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>double; 
+</code></pre></div> <h5 id=do-until>do until<a class=headerlink href=#do-until title="Permanent link">¶</a></h5> <div class=highlight><pre><span></span><code><span class=kr>data </span>double; 
   Interest=.<span class=m>0375</span>; 
   Total=<span class=m>100</span>; 
   <span class=k>do</span> <span class=k>until</span> (Total ge <span class=m>200</span>); #<span class=k>until</span>，这里改成90也会执行一次
@@ -221,7 +221,7 @@ cat(s1,s2,s3)   合并字符
   <span class=k>end</span>; 
   <span class=k>format</span> Total dollar10<span class=m>.2</span><span class=kr>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <h5 id=do-while>do while<a class=headerlink href=#do-while title="Permanent link">¶</a></h5> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>double; 
+</code></pre></div> <h5 id=do-while>do while<a class=headerlink href=#do-while title="Permanent link">¶</a></h5> <div class=highlight><pre><span></span><code><span class=kr>data </span>double; 
   Interest=.<span class=m>0375</span>; 
   Total=<span class=m>100</span>; 
   <span class=k>do</span> <span class=k>while</span> (Total ge <span class=m>200</span>); #<span class=k>while</span>，这里改成90就不会执行了
@@ -231,7 +231,7 @@ cat(s1,s2,s3)   合并字符
   <span class=k>end</span>; 
   <span class=k>format</span> Total dollar10<span class=m>.2</span><span class=kr>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <h5 id=_21>防止陷入死循环<a class=headerlink href=#_21 title="Permanent link">¶</a></h5> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>continue_on; 
+</code></pre></div> <h5 id=_21>防止陷入死循环<a class=headerlink href=#_21 title="Permanent link">¶</a></h5> <div class=highlight><pre><span></span><code><span class=kr>data </span>continue_on; 
   Interest=.<span class=m>0375</span>; 
   Total=<span class=m>100</span>; 
   <span class=k>do</span> year=<span class=m>1</span> to <span class=m>100</span> <span class=k>until</span> (Total gt <span class=m>200</span>); 
@@ -241,117 +241,117 @@ cat(s1,s2,s3)   合并字符
   <span class=k>end</span>; 
   <span class=k>format</span> total dollar10<span class=m>.2</span><span class=kr>; </span>
 <span class=kr>run;</span> 
-</code></pre></div> <h4 id=leavecontinue>leave和continue语句<a class=headerlink href=#leavecontinue title="Permanent link">¶</a></h4> <p>leave相当于break，跳出循环</p> <p>continue跳过这一次循环下面的语句</p> <h3 id=_22>观测操作（行）<a class=headerlink href=#_22 title="Permanent link">¶</a></h3> <h4 id=sort_1>排序sort过程<a class=headerlink href=#sort_1 title="Permanent link">¶</a></h4> <h4 id=ifwhere>指定条件的观测——if，where语句<a class=headerlink href=#ifwhere title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <h4 id=leavecontinue>leave和continue语句<a class=headerlink href=#leavecontinue title="Permanent link">¶</a></h4> <p>leave相当于break，跳出循环</p> <p>continue跳过这一次循环下面的语句</p> <h3 id=_22>观测操作（行）<a class=headerlink href=#_22 title="Permanent link">¶</a></h3> <h4 id=sort_1>排序sort过程<a class=headerlink href=#sort_1 title="Permanent link">¶</a></h4> <h4 id=ifwhere>指定条件的观测——if，where语句<a class=headerlink href=#ifwhere title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname;
     <span class=k>if</span> family ~=<span class=s>'sad'</span> <span class=k>then</span> <span class=k>delete</span><span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname;
     <span class=k>if</span> family =<span class=s>'sad'</span>;（这种没有then的用法只有data步可以使用
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname;
     <span class=k>where</span> family =<span class=s>'sad'</span>;（where适用性更强
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=surveyselect>随机抽取挂测——surveyselect<a class=headerlink href=#surveyselect title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc surveyselect </span>data=dataname
+</code></pre></div> <h4 id=surveyselect>随机抽取挂测——surveyselect<a class=headerlink href=#surveyselect title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc surveyselect </span>data=dataname
     method = SRS #简单随机抽样
     N=<span class=m>5</span> 
     <span class=k>out</span>=dataname
     seed=<span class=m>1</span>
     <span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=append>添加新观测——append<a class=headerlink href=#append title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc append </span>base=datain data=temp<span class=kr>;</span>
+</code></pre></div> <h4 id=append>添加新观测——append<a class=headerlink href=#append title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc append </span>base=datain data=temp<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <p>append变量名必须完全一致，顺序可以不同</p> <h4 id=if-then-delete>删除观测——if-then delete<a class=headerlink href=#if-then-delete title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>dataname;
+</code></pre></div> <p>append变量名必须完全一致，顺序可以不同</p> <h4 id=if-then-delete>删除观测——if-then delete<a class=headerlink href=#if-then-delete title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>dataname;
     <span class=k>set</span> dataname;
     <span class=k>if</span> family =<span class=s>''</span> <span class=k>then</span> <span class=k>delete</span>;#删除缺失值
     <span class=k>if</span> <span class=kc>_N_</span> = <span class=m>2</span> <span class=k>OR</span> <span class=kc>_N_</span> = <span class=m>3</span> <span class=k>then</span> <span class=k>delete</span>;#删除第二第三个观测
     <span class=k>if</span> family = <span class=s>'then'</span> <span class=k>then</span> family=<span class=s>'unknown'</span>;#修改缺失值
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_23>多数据集操作<a class=headerlink href=#_23 title="Permanent link">¶</a></h3> <h4 id=output>纵向拆分数据集(分类)——output语句<a class=headerlink href=#output title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>whale shark;
+</code></pre></div> <h3 id=_23>多数据集操作<a class=headerlink href=#_23 title="Permanent link">¶</a></h3> <h4 id=output>纵向拆分数据集(分类)——output语句<a class=headerlink href=#output title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>whale shark;
     <span class=k>set</span> marine;
     <span class=k>if</span> family=<span class=s>'1'</span> <span class=k>then</span> <span class=k>output</span> whale;
     <span class=k>else</span> <span class=k>if</span> family = <span class=s>'2'</span> <span class=k>then</span> <span class=k>output</span> shark;
          <span class=k>else</span> <span class=k>if</span> family=<span class=s>'3'</span> <span class=k>then</span> <span class=k>output</span>;
             #output后不加数据集输出到全部的数据集,实际上写不写这句话都是一样的
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>whale(<span class=k>where</span>=(family=<span class=s>'1'</span>)) shark(<span class=k>where</span>=(family=<span class=s>'2'</span>));
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>whale(<span class=k>where</span>=(family=<span class=s>'1'</span>)) shark(<span class=k>where</span>=(family=<span class=s>'2'</span>));
     <span class=k>set</span> marine<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=keepdrop>横向拆分数据集——keep或drop选项<a class=headerlink href=#keepdrop title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>whale(<span class=k>keep</span>=name family);
+</code></pre></div> <h4 id=keepdrop>横向拆分数据集——keep或drop选项<a class=headerlink href=#keepdrop title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>whale(<span class=k>keep</span>=name family);
     <span class=k>set</span> marine<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>whale(<span class=k>drop</span>=<span class=k>length</span>);
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>whale(<span class=k>drop</span>=<span class=k>length</span>);
     <span class=k>set</span> marine<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=set>纵向合并数据集——set<a class=headerlink href=#set title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>marine;
+</code></pre></div> <h4 id=set>纵向合并数据集——set<a class=headerlink href=#set title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>marine;
     <span class=k>set</span> shark wahle;#一致的变量会合并,前者有后者没有的后者会是缺失值
 <span class=kr>run;</span>
-</code></pre></div> <h4 id=merge>横向合并数据集——merge<a class=headerlink href=#merge title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>shark2;
+</code></pre></div> <h4 id=merge>横向合并数据集——merge<a class=headerlink href=#merge title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>data </span>shark2;
     <span class=k>merge</span> sharkla sharklb;
     <span class=k>by</span> name; #必须是排完序之后的
 <span class=kr>run;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>data </span>shark2;
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>data </span>shark2;
     <span class=k>merge</span> sharkla sharklb;没有by语句,按照obs来排序
 <span class=kr>run;</span>
-</code></pre></div> <h2 id=_24>作图<a class=headerlink href=#_24 title="Permanent link">¶</a></h2> <h3 id=_25>条形图<a class=headerlink href=#_25 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gchart </span>data=dataname;
+</code></pre></div> <h2 id=_24>作图<a class=headerlink href=#_24 title="Permanent link">¶</a></h2> <h3 id=_25>条形图<a class=headerlink href=#_25 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc gchart </span>data=dataname;
     vbar    var1/discrete;
     vbar3d  var1;
     hbar    var1/sumvar=weight type=mean descending;
     hbar3d  var1/midpoints=<span class=m>0</span> to <span class=m>3</span> <span class=k>by</span> <span class=m>1</span><span class=kr>;</span>
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h4 id=_26>常规选项<a class=headerlink href=#_26 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>discrete选项，离散柱状图
+</code></pre></div> <h4 id=_26>常规选项<a class=headerlink href=#_26 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>discrete选项，离散柱状图
 midpoints选项，列举中点取值及次序
 level=n选项，变量分为n类
 range选项，显示取值范围
-</code></pre></div> <h4 id=_27>分析变量选项<a class=headerlink href=#_27 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>sumvar=指定分析变量,type=指定分析统计量,默认为sum,descending按照bar的高度降序排列
-</code></pre></div> <h4 id=_28>分组选项<a class=headerlink href=#_28 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=k>group</span> = var1    #先分组再作图
+</code></pre></div> <h4 id=_27>分析变量选项<a class=headerlink href=#_27 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>sumvar=指定分析变量,type=指定分析统计量,默认为sum,descending按照bar的高度降序排列
+</code></pre></div> <h4 id=_28>分组选项<a class=headerlink href=#_28 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=k>group</span> = var1    #先分组再作图
 subgroup = var1 #先作图再分组————堆叠柱状图
-</code></pre></div> <h3 id=_29>饼图<a class=headerlink href=#_29 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gchart </span>data=dataname;
+</code></pre></div> <h3 id=_29>饼图<a class=headerlink href=#_29 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc gchart </span>data=dataname;
     pie var1/sumvary=var2<span class=kr>;</span>
 <span class=kr>    run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h3 id=_30>直方图<a class=headerlink href=#_30 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
+</code></pre></div> <h3 id=_30>直方图<a class=headerlink href=#_30 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
     histogram var1/scale=count;(默认显示频率,scale选项显示频数
     density var1;  密度拟合曲线
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_31>盒子图<a class=headerlink href=#_31 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
+</code></pre></div> <h3 id=_31>盒子图<a class=headerlink href=#_31 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
     vbox var1/category=var2;并列的盒子图,按照var2分类
     hbox var2<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_32>散点图<a class=headerlink href=#_32 title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
+</code></pre></div> <h3 id=_32>散点图<a class=headerlink href=#_32 title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
     plot var1*var2/haxis=axis1; (plot   纵坐标*横坐标/选项
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h3 id=_33>多个散点图<a class=headerlink href=#_33 title="Permanent link">¶</a></h3> <h4 id=_34>分组作图<a class=headerlink href=#_34 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
+</code></pre></div> <h3 id=_33>多个散点图<a class=headerlink href=#_33 title="Permanent link">¶</a></h3> <h4 id=_34>分组作图<a class=headerlink href=#_34 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
     plot var1*var2=var3/legend1; 纵坐标*横坐标=分组变量
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h4 id=_35>不重叠<a class=headerlink href=#_35 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
+</code></pre></div> <h4 id=_35>不重叠<a class=headerlink href=#_35 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
     plot var1*var2;
     plot var3*var4<span class=kr>;</span>
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <p>or</p> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
+</code></pre></div> <p>or</p> <div class=highlight><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
     plot var1*var2 var3*var4<span class=kr>;</span>
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h4 id=_36>重叠<a class=headerlink href=#_36 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
+</code></pre></div> <h4 id=_36>重叠<a class=headerlink href=#_36 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code><span class=kr>proc gplot </span>data=dataname;
     plot var1*var2 var3*var4/overlay legend1;
                 #legendn选项，overlay为覆盖模式
 <span class=kr>run;</span>
 <span class=kr>quit;</span>
-</code></pre></div> <h3 id=sgplot>新过程sgplot画散点图<a class=headerlink href=#sgplot title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
+</code></pre></div> <h3 id=sgplot>新过程sgplot画散点图<a class=headerlink href=#sgplot title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc sgplot </span>data=dataname;
     scatter <span class=k>x</span>=var1 y=var2;#散点
     series <span class=k>x</span>=var1 y=var2;
     step <span class=k>x</span>=var1 y=var2<span class=kr>;</span>
 <span class=kr>run;</span>
-</code></pre></div> <h3 id=_37>全局绘图设置语句<a class=headerlink href=#_37 title="Permanent link">¶</a></h3> <h4 id=_38>重置绘图设置<a class=headerlink href=#_38 title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>goptions <span class=k>reset</span>=all;
-</code></pre></div> <h4 id=symbol>symbol语句<a class=headerlink href=#symbol title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>symbol2 value=<span class=k>x</span> cv=red interpol=join ci=blue;
-</code></pre></div> <p>value 散点的形状———x（任意字母，star，diamond，dot，circle</p> <p>cv 散点颜色</p> <p>interpol=None 默认值，不连线 Join直线链接 Spline曲线链接</p> <p>ci 连线的颜色</p> <p>line=n连线的现状，n=1~46</p> <h4 id=axis>axis语句<a class=headerlink href=#axis title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>axis1 <span class=k>order</span>=(<span class=m>1</span> to <span class=m>10</span> <span class=k>by</span> <span class=m>2</span>);
-</code></pre></div> <p>plot 可以使用haxis=axisn选项来定义坐标轴样式</p> <h4 id=legend>legend语句<a class=headerlink href=#legend title="Permanent link">¶</a></h4> <div class=highlight><span class=filename>SAS</span><pre><span></span><code>legend1 <span class=k>order</span>=descending;
-</code></pre></div> <h3 id=univariateqq>univariate过程绘图——直方图、qq图<a class=headerlink href=#univariateqq title="Permanent link">¶</a></h3> <div class=highlight><span class=filename>SAS</span><pre><span></span><code><span class=kr>proc univariate </span>data=dataname;
+</code></pre></div> <h3 id=_37>全局绘图设置语句<a class=headerlink href=#_37 title="Permanent link">¶</a></h3> <h4 id=_38>重置绘图设置<a class=headerlink href=#_38 title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>goptions <span class=k>reset</span>=all;
+</code></pre></div> <h4 id=symbol>symbol语句<a class=headerlink href=#symbol title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>symbol2 value=<span class=k>x</span> cv=red interpol=join ci=blue;
+</code></pre></div> <p>value 散点的形状———x（任意字母，star，diamond，dot，circle</p> <p>cv 散点颜色</p> <p>interpol=None 默认值，不连线 Join直线链接 Spline曲线链接</p> <p>ci 连线的颜色</p> <p>line=n连线的现状，n=1~46</p> <h4 id=axis>axis语句<a class=headerlink href=#axis title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>axis1 <span class=k>order</span>=(<span class=m>1</span> to <span class=m>10</span> <span class=k>by</span> <span class=m>2</span>);
+</code></pre></div> <p>plot 可以使用haxis=axisn选项来定义坐标轴样式</p> <h4 id=legend>legend语句<a class=headerlink href=#legend title="Permanent link">¶</a></h4> <div class=highlight><pre><span></span><code>legend1 <span class=k>order</span>=descending;
+</code></pre></div> <h3 id=univariateqq>univariate过程绘图——直方图、qq图<a class=headerlink href=#univariateqq title="Permanent link">¶</a></h3> <div class=highlight><pre><span></span><code><span class=kr>proc univariate </span>data=dataname;
     var 分析变量;
     class 分类变量;
     histogram 分析变量;

@@ -13,7 +13,7 @@
   Hack: check whether the content contains a h1 headline. If it
   doesn't, the page title (or respectively site name) is used
   as the main headline.
---> <!-- Markdown content --> <div><h1 id=_1>面向对象编程<a class=headerlink href=#_1 title="Permanent link">¶</a></h1> <p>虽然函数式编程也很好玩，但是我认为python最丰富、可玩性最高的还是OOP（面向对象编程，Object Oriented Programming）。</p> <h2 id=_2>多态<a class=headerlink href=#_2 title="Permanent link">¶</a></h2> <p>多态也就是同一个接口在不同的类上表现出的行为不同。例如： </p><div class=highlight><span class=filename>Python</span><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
+--> <!-- Markdown content --> <div><h1 id=_1>面向对象编程<a class=headerlink href=#_1 title="Permanent link">¶</a></h1> <p>虽然函数式编程也很好玩，但是我认为python最丰富、可玩性最高的还是OOP（面向对象编程，Object Oriented Programming）。</p> <h2 id=_2>多态<a class=headerlink href=#_2 title="Permanent link">¶</a></h2> <p>多态也就是同一个接口在不同的类上表现出的行为不同。例如： </p><div class=highlight><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=k>class</span> <span class=nc>Person</span><span class=p>:</span>
 <span class=o>...</span>     <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>name</span><span class=p>):</span>
 <span class=o>...</span>         <span class=bp>self</span><span class=o>.</span><span class=n>name</span> <span class=o>=</span> <span class=n>name</span>
 <span class=o>...</span>     <span class=k>def</span> <span class=nf>hello</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
@@ -29,7 +29,7 @@
 <span class=o>&gt;&gt;&gt;</span> <span class=n>galler</span> <span class=o>=</span> <span class=n>Doctor</span><span class=p>(</span><span class=s1>'Galler'</span><span class=p>)</span>
 <span class=o>&gt;&gt;&gt;</span> <span class=n>galler</span><span class=o>.</span><span class=n>hello</span><span class=p>()</span>
 <span class=n>I</span> <span class=n>am</span> <span class=n>Dr</span><span class=o>.</span><span class=n>Galler</span>
-</code></pre></div> <h2 id=_3>属性<a class=headerlink href=#_3 title="Permanent link">¶</a></h2> <p>类中可以在不同的命名空间内封装一些变量。</p> <p>我们首先定义这样一个类： </p><div class=highlight><span class=filename>Python</span><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=k>class</span> <span class=nc>Example</span><span class=p>:</span>
+</code></pre></div> <h2 id=_3>属性<a class=headerlink href=#_3 title="Permanent link">¶</a></h2> <p>类中可以在不同的命名空间内封装一些变量。</p> <p>我们首先定义这样一个类： </p><div class=highlight><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=k>class</span> <span class=nc>Example</span><span class=p>:</span>
 <span class=o>...</span>     <span class=n>class_attribute</span> <span class=o>=</span> <span class=s1>'类属性'</span>
 <span class=o>...</span>     <span class=n>__private</span> <span class=o>=</span> <span class=s1>'私有属性'</span>
 <span class=o>...</span>     <span class=n>_private</span> <span class=o>=</span> <span class=s1>'惯用私有属性'</span>
@@ -38,7 +38,7 @@
 <span class=o>...</span>     <span class=nd>@property</span>
 <span class=o>...</span>     <span class=k>def</span> <span class=nf>property_attribute</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
 <span class=o>...</span>         <span class=k>return</span> <span class=s1>'property装饰的类属性'</span>
-</code></pre></div> 先看看里面都有啥： <div class=highlight><span class=filename>Python</span><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=n>e</span> <span class=o>=</span> <span class=n>Example</span><span class=p>()</span>
+</code></pre></div> 先看看里面都有啥： <div class=highlight><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=n>e</span> <span class=o>=</span> <span class=n>Example</span><span class=p>()</span>
 <span class=o>&gt;&gt;&gt;</span> <span class=n>e</span><span class=o>.</span><span class=fm>__dir__</span><span class=p>()</span>
 <span class=p>[</span> <span class=s1>'_Example__private'</span><span class=p>,</span> <span class=s1>'__class__'</span><span class=p>,</span> <span class=s1>'__delattr__'</span><span class=p>,</span>
   <span class=s1>'__dict__'</span><span class=p>,</span> <span class=s1>'__dir__'</span><span class=p>,</span> <span class=s1>'__doc__'</span><span class=p>,</span> <span class=s1>'__eq__'</span><span class=p>,</span> 
@@ -52,7 +52,7 @@
   <span class=s1>'class_attribute_in_method'</span><span class=p>,</span> <span class=s1>'property_attribute'</span><span class=p>]</span>
 <span class=o>&gt;&gt;&gt;</span> <span class=n>e</span><span class=o>.</span><span class=vm>__dict__</span>
 <span class=p>{</span><span class=s1>'class_attribute_in_method'</span><span class=p>:</span> <span class=s1>'方法内赋值的类属性'</span><span class=p>}</span>
-</code></pre></div> 可以发现，<code>e.__dir__()</code>可以查到所有的属性： <ul> <li><code>_Example__private</code>：（私有变量会被重命名）</li> <li><code>_private</code></li> <li><code>class_attribute</code></li> <li><code>class_attribute_in_method</code></li> <li><code>property_attribute</code></li> </ul> <p>但是<code>e.__dict__</code>只能查到通过<code>self.</code>赋值的变量。 </p><div class=highlight><span class=filename>Python</span><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=n>e</span><span class=o>.</span><span class=n>class_attribute</span>
+</code></pre></div> 可以发现，<code>e.__dir__()</code>可以查到所有的属性： <ul> <li><code>_Example__private</code>：（私有变量会被重命名）</li> <li><code>_private</code></li> <li><code>class_attribute</code></li> <li><code>class_attribute_in_method</code></li> <li><code>property_attribute</code></li> </ul> <p>但是<code>e.__dict__</code>只能查到通过<code>self.</code>赋值的变量。 </p><div class=highlight><pre><span></span><code><span class=o>&gt;&gt;&gt;</span> <span class=n>e</span><span class=o>.</span><span class=n>class_attribute</span>
 <span class=s1>'类属性'</span>
 <span class=o>&gt;&gt;&gt;</span> <span class=k>try</span><span class=p>:</span>
 <span class=o>...</span>     <span class=nb>print</span><span class=p>(</span><span class=n>e</span><span class=o>.</span><span class=n>__private</span><span class=p>)</span>
