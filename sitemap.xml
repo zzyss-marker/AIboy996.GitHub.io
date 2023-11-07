@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://yangzhang.site/Blog/2023/bloom/</loc>
+         <lastmod>2023-11-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://yangzhang.site/Blog/2023/curriculum/</loc>
          <lastmod>2023-11-07</lastmod>
          <changefreq>daily</changefreq>
@@ -87,11 +92,6 @@
     </url>
     <url>
          <loc>https://yangzhang.site/Blog/2023/travel_to_japan/</loc>
-         <lastmod>2023-11-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://yangzhang.site/Blog/2023/xy/</loc>
          <lastmod>2023-11-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
