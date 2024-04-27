@@ -197,6 +197,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/sakura/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Blog/2024/self-hosted-overleaf/</loc>
+        <lastmod>2024-04-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/self-hosted-overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/self-hosted-overleaf/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Blog/2024/winter/</loc>
         <lastmod>2024-04-27</lastmod>
         <changefreq>daily</changefreq>
@@ -1161,6 +1168,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/sakura/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/sakura/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Blog/2024/self-hosted-overleaf/</loc>
+        <lastmod>2024-04-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/self-hosted-overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/self-hosted-overleaf/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Blog/2024/winter/</loc>
