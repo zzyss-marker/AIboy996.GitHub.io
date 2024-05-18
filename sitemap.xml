@@ -162,6 +162,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2023/travel_to_japan/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Blog/2024/career/</loc>
+        <lastmod>2024-05-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/career/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/career/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Blog/2024/envelope/</loc>
         <lastmod>2024-05-18</lastmod>
         <changefreq>daily</changefreq>
@@ -1161,6 +1168,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2023/travel_to_japan/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2023/travel_to_japan/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Blog/2024/career/</loc>
+        <lastmod>2024-05-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Blog/2024/career/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/career/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Blog/2024/envelope/</loc>
