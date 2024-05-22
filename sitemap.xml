@@ -407,6 +407,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/mkdocs/plugin/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/mkdocs/plugin_dev/</loc>
+        <lastmod>2024-05-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/mkdocs/plugin_dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/mkdocs/plugin_dev/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/mkdocs/practice/</loc>
         <lastmod>2024-05-22</lastmod>
         <changefreq>daily</changefreq>
@@ -461,6 +468,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Project/high_school_math/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Project/high_school_math/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Project/mkdocs-ai-summary/</loc>
+        <lastmod>2024-05-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Project/mkdocs-ai-summary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Project/mkdocs-ai-summary/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Project/npnn/</loc>
@@ -1415,6 +1429,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/mkdocs/plugin/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Note/mkdocs/plugin_dev/</loc>
+        <lastmod>2024-05-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/mkdocs/plugin_dev/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/mkdocs/plugin_dev/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Note/mkdocs/practice/</loc>
         <lastmod>2024-05-22</lastmod>
         <changefreq>daily</changefreq>
@@ -1469,6 +1490,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Project/high_school_math/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Project/high_school_math/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Project/mkdocs-ai-summary/</loc>
+        <lastmod>2024-05-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Project/mkdocs-ai-summary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Project/mkdocs-ai-summary/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Project/npnn/</loc>
