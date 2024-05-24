@@ -247,6 +247,34 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Docker/docker_senior/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/Fudan/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Fudan/campus/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/campus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/campus/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Fudan/fdulife/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/fdulife/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/fdulife/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Fudan/script/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/script/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/script/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/GFW/client/</loc>
         <lastmod>2024-05-24</lastmod>
         <changefreq>daily</changefreq>
@@ -737,13 +765,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/prob/conditional_expectation/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/SomeMath/real/a_limit/</loc>
-        <lastmod>2024-05-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/a_limit/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/a_limit/"/>
-    </url>
-    <url>
         <loc>https://yangzhang.site/SomeMath/real/derivatives/</loc>
         <lastmod>2024-05-24</lastmod>
         <changefreq>daily</changefreq>
@@ -770,6 +791,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/rational_numbers_countable/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/rational_numbers_countable/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/SomeMath/real/problems/a_limit/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/problems/a_limit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/a_limit/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/SomeMath/real/taylor_expand/taylor_expand/</loc>
@@ -1078,6 +1106,34 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Docker/docker_senior/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Docker/docker_senior/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Fudan/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Fudan/campus/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/campus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/campus/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Fudan/fdulife/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/fdulife/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/fdulife/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Fudan/script/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Fudan/script/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Fudan/script/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/GFW/client/</loc>
@@ -1570,13 +1626,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/prob/conditional_expectation/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/en/SomeMath/real/a_limit/</loc>
-        <lastmod>2024-05-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/a_limit/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/a_limit/"/>
-    </url>
-    <url>
         <loc>https://yangzhang.site/en/SomeMath/real/derivatives/</loc>
         <lastmod>2024-05-24</lastmod>
         <changefreq>daily</changefreq>
@@ -1603,6 +1652,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/rational_numbers_countable/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/rational_numbers_countable/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/SomeMath/real/problems/a_limit/</loc>
+        <lastmod>2024-05-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/a_limit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/problems/a_limit/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/SomeMath/real/taylor_expand/taylor_expand/</loc>
