@@ -413,6 +413,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Shell/ssh/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/Spider/antispider/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Spider/antispider/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Spider/antispider/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/jupyter/jupyter1/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -721,6 +728,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/numpy/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Python/ThirdPartyLibrary/numpy/linalg/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/numpy/linalg/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/numpy/linalg/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Python/ThirdPartyLibrary/numpy/ndarray/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -735,6 +749,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pandas/calculation/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/calculation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/calculation/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pandas/dataframe/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -742,11 +763,25 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/dataframe/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pandas/plotting/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/plotting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/plotting/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/compile/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/compile/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/compile/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/data/</loc>
@@ -1330,6 +1365,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Shell/ssh/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Note/Spider/antispider/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Spider/antispider/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Spider/antispider/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Note/jupyter/jupyter1/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -1638,6 +1680,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/numpy/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/numpy/linalg/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/numpy/linalg/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/numpy/linalg/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/numpy/ndarray/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -1652,6 +1701,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/calculation/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/calculation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/calculation/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/dataframe/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
@@ -1659,11 +1715,25 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/dataframe/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/plotting/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pandas/plotting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pandas/plotting/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/</loc>
         <lastmod>2024-05-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/compile/</loc>
+        <lastmod>2024-05-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/compile/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Python/ThirdPartyLibrary/pytorch/compile/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Python/ThirdPartyLibrary/pytorch/data/</loc>
