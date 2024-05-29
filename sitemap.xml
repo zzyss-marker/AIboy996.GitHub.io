@@ -476,6 +476,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/latex/basic_latex/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/latex/latex_cn/</loc>
+        <lastmod>2024-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/latex/latex_cn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/latex/latex_cn/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/manim/hello/</loc>
         <lastmod>2024-05-29</lastmod>
         <changefreq>daily</changefreq>
@@ -1447,6 +1454,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/latex/basic_latex/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/latex/basic_latex/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/latex/latex_cn/</loc>
+        <lastmod>2024-05-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/latex/latex_cn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/latex/latex_cn/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/manim/hello/</loc>
