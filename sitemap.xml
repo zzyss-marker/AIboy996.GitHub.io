@@ -384,6 +384,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Mac/zsh/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/NAS/</loc>
+        <lastmod>2024-06-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/NAS/domain/</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>daily</changefreq>
@@ -398,11 +405,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/media/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/Note/NAS/webhook/</loc>
+        <loc>https://yangzhang.site/Note/NAS/nodemation/</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/webhook/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/webhook/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/nodemation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/nodemation/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/NAS/overleaf/</loc>
+        <lastmod>2024-06-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/overleaf/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Note/NS/crack/</loc>
@@ -1427,6 +1441,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Mac/zsh/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Note/NAS/</loc>
+        <lastmod>2024-06-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Note/NAS/domain/</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>daily</changefreq>
@@ -1441,11 +1462,18 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/media/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/en/Note/NAS/webhook/</loc>
+        <loc>https://yangzhang.site/en/Note/NAS/nodemation/</loc>
         <lastmod>2024-06-15</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/webhook/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/webhook/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/nodemation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/nodemation/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/NAS/overleaf/</loc>
+        <lastmod>2024-06-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/overleaf/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/NS/crack/</loc>
