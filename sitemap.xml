@@ -452,6 +452,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NS/stream/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/Reading/wuyingdeng/</loc>
+        <lastmod>2024-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Reading/wuyingdeng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Reading/wuyingdeng/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/SAS/SAS_application/</loc>
         <lastmod>2024-07-24</lastmod>
         <changefreq>daily</changefreq>
@@ -1528,6 +1535,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NS/stream/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NS/stream/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Reading/wuyingdeng/</loc>
+        <lastmod>2024-07-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Reading/wuyingdeng/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Reading/wuyingdeng/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/SAS/SAS_application/</loc>
