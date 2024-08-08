@@ -7,6 +7,12 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Blog/2019/2019_memory/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2019/2019_memory/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Blog/2019/2019_summary/</loc>
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
@@ -23,6 +29,12 @@
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2020/school/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Blog/2021/travel_to_chengdu/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2021/travel_to_chengdu/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Blog/2022/2022_summary/</loc>
@@ -83,12 +95,6 @@
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2023/name/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/Blog/2023/recall_high_school_math/</loc>
-        <lastmod>2024-08-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2023/recall_high_school_math/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Blog/2023/thesis/</loc>
@@ -169,12 +175,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/sakura/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/Blog/2024/self-hosted-overleaf/</loc>
-        <lastmod>2024-08-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/self-hosted-overleaf/"/>
-    </url>
-    <url>
         <loc>https://yangzhang.site/Blog/2024/travel_to_hk/</loc>
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
@@ -191,12 +191,6 @@
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/winter/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/Blog/2024/wol/</loc>
-        <lastmod>2024-08-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2024/wol/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/</loc>
@@ -430,11 +424,18 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/nodemation/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/Note/NAS/overleaf/</loc>
+        <loc>https://yangzhang.site/Note/NAS/self-hosted-overleaf/</loc>
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/overleaf/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/self-hosted-overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/self-hosted-overleaf/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/NAS/wol/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/wol/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/wol/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Note/NS/crack/</loc>
@@ -1046,6 +1047,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/a_limit/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/SomeMath/real/problems/recall_high_school_math/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/problems/recall_high_school_math/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/recall_high_school_math/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/SomeMath/real/taylor_expand/taylor_expand/</loc>
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
@@ -1522,11 +1530,18 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/nodemation/"/>
     </url>
     <url>
-        <loc>https://yangzhang.site/en/Note/NAS/overleaf/</loc>
+        <loc>https://yangzhang.site/en/Note/NAS/self-hosted-overleaf/</loc>
         <lastmod>2024-08-08</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/overleaf/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/self-hosted-overleaf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/self-hosted-overleaf/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/NAS/wol/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/wol/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/wol/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/NS/crack/</loc>
@@ -2136,6 +2151,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/a_limit/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/problems/a_limit/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/SomeMath/real/problems/recall_high_school_math/</loc>
+        <lastmod>2024-08-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/problems/recall_high_school_math/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/problems/recall_high_school_math/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/SomeMath/real/taylor_expand/taylor_expand/</loc>
