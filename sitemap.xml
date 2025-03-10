@@ -339,6 +339,27 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/software/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/Algorithm/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Algorithm/interview/0309_ant/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_ant/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_ant/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Algorithm/interview/0309_pdd/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_pdd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_pdd/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/DataAnalysis/</loc>
         <lastmod>2025-03-10</lastmod>
         <changefreq>daily</changefreq>
@@ -1207,6 +1228,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/prob/Montmort/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/SomeMath/prob/crit/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/prob/crit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/prob/crit/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/SomeMath/real/derivatives/</loc>
         <lastmod>2025-03-10</lastmod>
         <changefreq>daily</changefreq>
@@ -1674,6 +1702,27 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/software/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/software/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/interview/0309_ant/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_ant/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_ant/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/interview/0309_pdd/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_pdd/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_pdd/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/DataAnalysis/</loc>
@@ -2542,6 +2591,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/prob/Montmort/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/prob/Montmort/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/SomeMath/prob/crit/</loc>
+        <lastmod>2025-03-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/prob/crit/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/prob/crit/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/SomeMath/real/derivatives/</loc>
