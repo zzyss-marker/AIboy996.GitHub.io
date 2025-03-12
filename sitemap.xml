@@ -346,6 +346,27 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/Algorithm/diffusion/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/diffusion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/diffusion/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Algorithm/llm/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/llm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/llm/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Algorithm/reinforce/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/reinforce/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/reinforce/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/Algorithm/interview/0309_ant/</loc>
         <lastmod>2025-03-12</lastmod>
         <changefreq>daily</changefreq>
@@ -358,6 +379,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_pdd/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_pdd/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/Note/Algorithm/interview/0312_wechat/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0312_wechat/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0312_wechat/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Note/DataAnalysis/</loc>
@@ -1459,6 +1487,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/Reinforcement_Learning/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Statistics/postgrad/journal_club/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Statistics/postgrad/risk_management/</loc>
         <lastmod>2025-03-12</lastmod>
         <changefreq>daily</changefreq>
@@ -1485,27 +1520,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/computational_statistics/varitional_inference/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/computational_statistics/varitional_inference/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/Statistics/postgrad/journal_club/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/Statistics/postgrad/journal_club/diffusion/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/diffusion/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/diffusion/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/Statistics/postgrad/journal_club/llm/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/llm/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/llm/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/Statistics/postgrad/time_series/</loc>
@@ -1718,6 +1732,27 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/diffusion/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/diffusion/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/diffusion/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/llm/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/llm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/llm/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/reinforce/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/reinforce/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/reinforce/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Note/Algorithm/interview/0309_ant/</loc>
         <lastmod>2025-03-12</lastmod>
         <changefreq>daily</changefreq>
@@ -1730,6 +1765,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0309_pdd/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0309_pdd/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/Algorithm/interview/0312_wechat/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/Algorithm/interview/0312_wechat/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/Algorithm/interview/0312_wechat/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/DataAnalysis/</loc>
@@ -2831,6 +2873,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/Reinforcement_Learning/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/en/Statistics/postgrad/journal_club/</loc>
+        <lastmod>2025-03-12</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/en/Statistics/postgrad/risk_management/</loc>
         <lastmod>2025-03-12</lastmod>
         <changefreq>daily</changefreq>
@@ -2857,27 +2906,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/computational_statistics/varitional_inference/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/computational_statistics/varitional_inference/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/en/Statistics/postgrad/journal_club/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/en/Statistics/postgrad/journal_club/diffusion/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/diffusion/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/diffusion/"/>
-    </url>
-    <url>
-        <loc>https://yangzhang.site/en/Statistics/postgrad/journal_club/llm/</loc>
-        <lastmod>2025-03-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Statistics/postgrad/journal_club/llm/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Statistics/postgrad/journal_club/llm/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Statistics/postgrad/time_series/</loc>
