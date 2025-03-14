@@ -229,6 +229,12 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2025/disney/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Blog/2025/pi/</loc>
+        <lastmod>2025-03-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Blog/2025/pi/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Blog/2025/tjupt/</loc>
         <lastmod>2025-03-14</lastmod>
         <changefreq>daily</changefreq>
@@ -1303,6 +1309,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/hyperbolic_function/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/hyperbolic_function/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/SomeMath/real/pi/</loc>
+        <lastmod>2025-03-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/pi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/pi/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/SomeMath/real/rational_numbers_countable/</loc>
@@ -2703,6 +2716,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/hyperbolic_function/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/hyperbolic_function/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/SomeMath/real/pi/</loc>
+        <lastmod>2025-03-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/SomeMath/real/pi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/SomeMath/real/pi/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/SomeMath/real/rational_numbers_countable/</loc>
