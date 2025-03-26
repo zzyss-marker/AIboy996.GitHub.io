@@ -715,6 +715,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/domain/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/Note/NAS/https/</loc>
+        <lastmod>2025-03-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/https/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/https/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/Note/NAS/media/</loc>
         <lastmod>2025-03-26</lastmod>
         <changefreq>daily</changefreq>
@@ -2232,6 +2239,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/domain/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/domain/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/Note/NAS/https/</loc>
+        <lastmod>2025-03-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/Note/NAS/https/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/Note/NAS/https/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/Note/NAS/media/</loc>
