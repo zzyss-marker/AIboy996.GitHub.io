@@ -286,6 +286,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/About/about/"/>
     </url>
     <url>
+        <loc>https://yangzhang.site/About/ads/</loc>
+        <lastmod>2025-04-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/About/ads/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/About/ads/"/>
+    </url>
+    <url>
         <loc>https://yangzhang.site/About/devices/</loc>
         <lastmod>2025-04-05</lastmod>
         <changefreq>daily</changefreq>
@@ -1887,6 +1894,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/About/about/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/About/about/"/>
+    </url>
+    <url>
+        <loc>https://yangzhang.site/en/About/ads/</loc>
+        <lastmod>2025-04-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yangzhang.site/en/About/ads/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://yangzhang.site/About/ads/"/>
     </url>
     <url>
         <loc>https://yangzhang.site/en/About/devices/</loc>
