@@ -841,6 +841,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://yangzhang.site/Note/Shell/expansion/</loc>
+         <lastmod>2025-07-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://yangzhang.site/Note/Shell/man/</loc>
          <lastmod>2025-07-22</lastmod>
          <changefreq>daily</changefreq>
